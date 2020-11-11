@@ -1,7 +1,7 @@
 package Amazon;/* Open amazon.co.uk Website<electronics< mobile phones and communication< apple airpods pro< add to basket< sign in
  to pay. In multi browser by choosing browser in String browser line number: 26 */
 //Bug(Problem): Internet Explorer Only baseUrl opens and next steps can't be followed.
-//Bug(Problem) : Not able to add else statement in the end
+
 
 import org.openqa.selenium.Point;
 import org.openqa.selenium.WebDriver;
@@ -128,7 +128,8 @@ public class AmazonMultiBrowserTest {
 
 
         }
-// Not able to add else statement showing error:  red underline in else
+          else
+            System.out.println("wrong browser");
 
     }
 }
